@@ -97,3 +97,11 @@
   urls:
     - https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q5_K_M.gguf
   sha256: 0976ee1707fc97b142d7266a9a501893ea6f320e8a8227aa1f04bcab74a5f556
+
+- name: DeepseekCoder-1.3B-TypeScript
+  <<: *deepseek-series
+  provider_url: https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base
+
+  urls:
+    - https://huggingface.co/keriati/deepseek-coder-1.3b-typescript-GGUF/resolve/main/deepseek-coder-1.3b-typescript-Q5_K_M.gguf
+  sha256: 	a65fca33541303a0b1217889d261bdc39d6d3a749fa47b7b69ef83abb66fadde
